@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Management App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Learning Management System</h1>
+    <form id="register-form">
+        <div class="register-container">
+            <h2>Register</h2>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="full_name" placeholder="Full Name" required>
+            <button class="register-btn" type="submit">Register</button>
+    
+           <div>
+                <p>By Registering you agree to our terms and policies.</p>
+    
+                <p>Already Registered? <a href="">click here to LOGIN</a></p>
+            </div>
+        </div>
+    </form>
+    <form>
+        <div class="login-form">
+            <h2>Login</h2>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button class="login-btn" type="submit">Login</button>
+      
+            <button class="logout-btn" type="submit">Logout</button>
+        </div>
+    </form>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
